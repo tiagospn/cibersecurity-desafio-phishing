@@ -21,10 +21,14 @@ Será mostrado um menu, escolha as opções digitando o numero correspondente e 
 Será sugerido um IP para ser usado como site clonado, esse IP será do seu micro Kali.
 Se estiver correto, confirme com Enter, se não tiver certeza, confirme o IP através do comando ``` ifconfig ```
 
-Continuado, será solicitado o site a ser clonado
+Continuando, será solicitado o site a ser clonado
 - Enter the url to clone: http://www.facebook.com
 
+Se tudo correu bem, uma mensagem semelhante a essa será exibida:
+![Image](./phishing1.png "Rodando")
 
-### Resutados
+- Feito isso, acesse de outro micro que esteja na mesma rede o endereço http://www.facebook.com
+- Tente realizar o login na página clonada
+- Volte no Kali e localize no terminal os parâmetros abaixo:
 
-![Alt text](./passwd.png "Optional title")
+![Image](./resultado.png "Login e senha capturadas")
