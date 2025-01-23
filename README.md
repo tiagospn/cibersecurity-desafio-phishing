@@ -18,7 +18,7 @@ Será mostrado um menu, escolha as opções digitando o numero correspondente e 
 - Método de ataque: Opção 3: ```Credential Harvester Attack Method ```
 - Método de ataque: Opção 2: ``` Site Cloner ```
 
-Será sugerido um IP para ser usado como site clonado, esse IP será do seu micro Kali.
+Será sugerido um IP para ser usado como site clonado, esse IP será do seu micro Kali (Exemplo 192.168.10.10)
 Se estiver correto, confirme com Enter, se não tiver certeza, confirme o IP através do comando ``` ifconfig ```
 
 Continuando, será solicitado o site a ser clonado
@@ -27,7 +27,7 @@ Continuando, será solicitado o site a ser clonado
 Se tudo correu bem, uma mensagem semelhante a essa será exibida:
 ![Image](./phishing1.png "Rodando")
 
-- Feito isso, acesse de outro micro que esteja na mesma rede o endereço http://www.facebook.com
+- Feito isso, a partir de outro micro que esteja na mesma rede do Kali, acesse o endereço em seu navegador colocando o IP definido anteriormente: (Exemplo: http://192.168.10.10)
 - Tente realizar o login na página clonada
 - Volte no Kali e localize no terminal os parâmetros abaixo:
 
